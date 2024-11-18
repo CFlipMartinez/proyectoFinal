@@ -1,0 +1,42 @@
+/* Mobile Syles */
+body {
+    font-family: "Homer Simpson UI";
+    background-color: #ffffff;
+    color: #212529;
+    /* padding: 20px; */
+}
+
+/* Estilo para separador */
+.custom-divider {
+    border: 0;
+    height: 2px;
+    background-color: #090909; /* Cambia el color según tu diseño */
+    margin: 20px 0; /* Ajusta el margen según tus necesidades */
+}
+
+/* img-1 style */
+#img-1 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Desktop Styles */
+@media screen and (min-width: 992px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #212529;
+        color: #ffffff;
+        /* padding: 20px; */
+    }
+
+    /* Estilo para separador */
+    .custom-divider {
+        border: 0;
+        height: 2px;
+        background-color: #ccc; 
+        margin: 20px 0; /* Ajusta el margen según tus necesidades */
+    }
+}

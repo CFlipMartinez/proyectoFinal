@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>TechRealm</title>
+        <!--Icono-->
+        <link rel="shortcut icon" href="../assets/images/TechRealm.ico">
+        <!--CSS Bootstrap-->
+        <link href="../assets/css/css_bootstrap/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="stylesheet" href="../assets/css/MediaQueryStyles.css">
+	</head>
+
+    <body>
+        <header>
+            <!--NavBar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../assets/images/TechRealm-logo2.png" alt="Logo" width="60" height="54" class="d-inline-block align-text-top">
+                    </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">
+                                    <img src="../assets/images/home.svg" alt="Logo" width="24" height="24" class="d-inline-block">
+                                    Inicio
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="../assets/images/Products.svg" alt="Logo" width="24" height="24" class="d-inline-block">
+                                    Productos
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./products.html">Juegos</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="./products.html">Consolas</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="./products.html">PlayStation</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">Xbox</a></li>
+                                            <li><a class="dropdown-item" href="./products.html">Nintendo</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="./products.html">Otra</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./products.html">Accesorios</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="./products.html">Soporte técnico</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./aboutUs.html">
+                                    <img src="../assets/images/AboutUs.svg" alt="Logo" width="24" height="24" class="d-inline-block">
+                                    Nosotros
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacUs.html">
+                                    <img src="../assets/images/contactUs.svg" alt="Logo" width="24" height="24" class="d-inline-block">
+                                    Contáctenos
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar en la tienda" aria-label="Search">
+                            <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--Sección de contacto-->
+        <section>
+            <div style="padding-top: 1rem; padding-bottom: 30px;">
+                <div class="container-lg">
+                    <div class="row mb-5">
+                        <!-- Sobre Nosotros -->
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <div>
+                                <h1 class="text-center">Sobre Nosotros</h1>
+                                <p>En TechRealm, somos apasionados por el mundo de los videojuegos y la tecnología. Nos dedicamos a brindar una experiencia única para jugadores de todas las edades, ofreciendo una amplia variedad de juegos, consolas, y accesorios que llevan el entretenimiento al siguiente nivel. Nos enorgullece ser un espacio para explorar lo último en gaming, con un equipo que entiende las necesidades de los gamers.</p>
+                            </div>
+                        </div>
+                        <!-- Imagen -->
+                        <div id="img-1" class="col-lg-6">
+                            <img src="../assets/images/about/img-1.png" class="rounded mx-auto d-block" alt="nosotros" style="width: 100%;">
+                        </div>
+                    </div>
+
+                    <div>
+                        <hr class="custom-divider">
+                    </div>
+                    
+                    <div class="row mb-5">
+                        <!-- Visión -->
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <div>
+                                <h1 class="text-center">Visión</h1>
+                                <p>Ser el punto de referencia en la comunidad gamer, reconocido por nuestro compromiso con la innovación, la calidad y la pasión por los videojuegos. Aspiramos a conectar a los jugadores con la mejor tecnología y experiencias que transformen su forma de jugar.</p>
+                            </div>
+                        </div>
+                        <!-- Misión -->
+                        <div class="col-lg-6 d-flex align-items-center">
+                            <div>
+                                <h1 class="text-center">Misión</h1>
+                                <p>Empoderar a cada cliente de TechRealm con productos y servicios de alta calidad, fomentando una comunidad donde cada jugador se sienta escuchado, inspirado y respaldado por nuestra dedicación al mundo de los videojuegos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scripts -->
+        <script src="../assets/js/js_bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/jquery/jquery-3.7.1.min.js"></script>
+        <script src="../assets/js/logica.js"></script>
+    </body>
+</html>
